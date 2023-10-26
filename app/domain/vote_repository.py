@@ -1,6 +1,6 @@
 import abc
 from typing import List
-from hexagonal_architecture.domain.vote import Vote
+from app.domain.vote import Vote
 
 
 class VoteRepository(metaclass=abc.ABCMeta):

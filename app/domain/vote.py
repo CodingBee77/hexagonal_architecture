@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     # This is necessary to prevent circular imports
-    from hexagonal_architecture.domain.vote_repository import VoteRepository
+    from app.domain.vote_repository import VoteRepository
 
 
 @dataclass
